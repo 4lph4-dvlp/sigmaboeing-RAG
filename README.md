@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 ### 3. Enter API Keys
 ```bash
-export GOOGLE_API_KEY="your_gemini_key"
-export GROQ_API_KEY="your_groq_key"
+export $env:GOOGLE_API_KEY="your_gemini_key"
+export $env:GROQ_API_KEY="your_groq_key"
 ```
 ### 4. Run the application
